@@ -3,16 +3,16 @@
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}_Sigma
 
-%define		_requires_exceptions pear())
+%define		_requires_exceptions pear())\\|pear(PHPUnit.php)
 
 Summary:	%{_pearname} - Integrated Templates API implemetation with template 'compilation'
 Name:		php-pear-%{_pearname}
-Version:	1.1.4
-Release:	%mkrel 2
+Version:	1.1.5
+Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
 URL:		http://pear.php.net/package/HTML_Template_Sigma/
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
@@ -98,7 +98,4 @@ rm -rf %{buildroot}
 %doc %{_pearname}-%{version}/docs
 %doc %{_pearname}-%{version}/tests
 %{_datadir}/pear/%{_class}/%{_subclass}/*.php
-
 %{_datadir}/pear/packages/%{_pearname}.xml
-
-
