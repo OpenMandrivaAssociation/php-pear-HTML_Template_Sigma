@@ -7,7 +7,7 @@
 
 Summary:	%{_pearname} - Integrated Templates API implemetation with template 'compilation'
 Name:		php-pear-%{_pearname}
-Version:	1.1.5
+Version:	1.1.6
 Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
