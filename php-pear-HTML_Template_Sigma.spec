@@ -5,10 +5,10 @@
 
 %define		_requires_exceptions pear())\\|pear(PHPUnit.php)
 
-Summary:	%{_pearname} - Integrated Templates API implemetation with template 'compilation'
+Summary:	Integrated Templates API implemetation with template 'compilation'
 Name:		php-pear-%{_pearname}
 Version:	1.1.6
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/HTML_Template_Sigma/
