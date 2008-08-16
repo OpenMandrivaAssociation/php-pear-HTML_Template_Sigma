@@ -7,8 +7,8 @@
 
 Summary:	Integrated Templates API implemetation with template 'compilation'
 Name:		php-pear-%{_pearname}
-Version:	1.1.6
-Release:	%mkrel 3
+Version:	1.2.0
+Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/HTML_Template_Sigma/
@@ -18,7 +18,7 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 HTML_Template_Sigma implements Integrated Templates API designed by
