@@ -2,8 +2,6 @@
 %define		_subclass	Template
 %define		upstream_name	%{_class}_%{_subclass}_Sigma
 
-%define		_requires_exceptions pear())\\|pear(PHPUnit.php)
-
 Name:		php-pear-%{upstream_name}
 Version:	1.2.0
 Release:	%mkrel 8
