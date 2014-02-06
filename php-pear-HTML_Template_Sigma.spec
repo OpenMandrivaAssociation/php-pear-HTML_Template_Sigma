@@ -4,12 +4,12 @@
 
 Summary:	Integrated Templates API implemetation with template 'compilation'
 Name:		php-pear-%{modname}
-Version:	1.2.0
-Release:	13
+Version:	1.3.0
+Release:	1
 License:	PHP License
 Group:		Development/PHP
 Url:		http://pear.php.net/package/HTML_Template_Sigma/
-Source0:	http://download.pear.php.net/package/%{modname}-%{version}.tgz
+Source0:	http://download.pear.php.net/package/HTML_Template_Sigma-%{version}.tgz
 BuildArch:	noarch
 BuildRequires:	php-pear
 Requires(post,preun):	php-pear
@@ -58,4 +58,5 @@ install -m 644 %{modname}.xml %{buildroot}%{_datadir}/pear/packages
 %doc %{modname}-%{version}/docs/*
 %{_datadir}/pear/%{_class}
 %{_datadir}/pear/packages/%{modname}.xml
+
 
