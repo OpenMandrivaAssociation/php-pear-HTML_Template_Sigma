@@ -5,7 +5,7 @@
 Summary:	Integrated Templates API implemetation with template 'compilation'
 Name:		php-pear-%{modname}
 Version:	1.3.0
-Release:	5
+Release:	6
 License:	PHP License
 Group:		Development/PHP
 Url:		http://pear.php.net/package/HTML_Template_Sigma/
