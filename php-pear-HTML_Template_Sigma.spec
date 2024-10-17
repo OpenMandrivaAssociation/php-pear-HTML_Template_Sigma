@@ -8,7 +8,7 @@ Version:	1.3.0
 Release:	6
 License:	PHP License
 Group:		Development/PHP
-Url:		http://pear.php.net/package/HTML_Template_Sigma/
+Url:		https://pear.php.net/package/HTML_Template_Sigma/
 Source0:	http://download.pear.php.net/package/HTML_Template_Sigma-%{version}.tgz
 BuildArch:	noarch
 BuildRequires:	php-pear
